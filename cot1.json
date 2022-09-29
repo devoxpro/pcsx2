@@ -1,7 +1,7 @@
 [{
-		"name": "تانغو",
-		"description": "حادث سير يكشف عن خيانات ظن أصحابها أن من المستحيل فضحها، وأصدقاء يشتتهم القدر، مخلفين وراءهم خفايا صادمة تنكشف شيئاً فشيئاً",
-		"img": "https://i.imgur.com/UVwFHPx.png"
+		"name": "about ",
+		"description": "PCSX2 is a free and open-source PlayStation 2 (PS2) emulator. Its purpose is to emulate the PS2's hardware, using a combination of MIPS CPU Interpreters, Recompilers and a Virtual Machine which manages hardware states and PS2 system memory. The project has been running for almost 20 years.",
+	"img": "https://i.ibb.co/RN9pXTJ/PCSX2-1-6-0-Windows-10.png"
 	},
 	{
 		"name": "لا حكم عليه",
