@@ -5,31 +5,32 @@
 	},
 	{
 		"name": "PCSX2 Basic Setup Guide",
-		"description": "يحكم على شاب بالسجن المؤبد لقتله أمه وزوجها، لكن تظهر محامية بعد خمس سنوات تحمل دليل براءته، ليخرج من السجن مصمماً على معرفة الحقيقة.",
+		"description": "System Requirements #\nMinimum #\nOperating system\nWindows 8.1 or newer (64-bit)\nUbuntu 18.04/Debian or newer, Arch Linux, or other distro (64-bit)\nCPU\nSupports SSE4.1\nPassMark single thread performance rating near or greater than 1600\nNote: Recommended single thread performance is based on moderately complex games. Games that pushed the PS2 hardware to its limits will struggle on CPUs at this level. Some release titles and 2D games which underutilized the PS2 hardware may run on CPUs rated as low as 1200.\nA quick reference for CPU intensive games: Wiki , Forum\nAnd CPU light games: Forum\nTwo physical cores, with hyperthreading\nGPU\nDirect3D10 support\nOpenGL 3.x support\nPassMark G3D Mark rating around 3000 (GeForce GTX 750)\nNote: Recommended GPU is based on 3x internal, ~1080p resolution requirements. Higher resolutions will require stronger cards; 6x internal, ~4K resolution will require a PassMark G3D Mark rating around 12000 (GeForce GTX 1070 Ti).\nJust like CPU requirements, this is also highly game dependent. A quick reference for GPU intensive games: Wiki\n2 GB video memory\nRAM\n4 GB\nRecommended #\nOperating system\nWindows 10 (64-bit)\nUbuntu 19.04/Debian or newer, Arch Linux, or other distro (64-bit)\nCPU\nSupports AVX2\nPassMark single thread performance rating near or greater than 2100\nFour physical cores, with or without hyperthreading\nGPU\nDirect3D11 support\nOpenGL 4.6 support\nPassMark G3D Mark rating around 6000 (GeForce GTX 1050 Ti)\n4 GB video memory\nRAM\n8 GB\nRequired software #\nYou need the Visual C++ 2019 x86 Redistributables to run PCSX2.\nVersion deprecation notes #\nWindows XP and Direct3D9 support was dropped after stable release 1.4.0.\nWindows 7 and Windows 8.0 support was dropped after stable release 1.6.0.\n32-bit support was dropped after stable release 1.6.0.",
 		
-		
-		"img": "https://i.imgur.com/Y7yaf9B.png"
+		"img": "https://i.ibb.co/RN9pXTJ/PCSX2-1-6-0-Windows-10.png"
 	},
 	{
-		"name": "نمرة اتنين",
-		"description": "الحب قد يأتي في الوقت المناسب مع الشخص المناسب، أو الوقت الخطأ مع الشخص المناسب، أو الاثنين معاً... قد يظل منتظراً، أو لا يأتي على الأطلاق... أو قد يأتي مرتين",
-		"img": "https://i.imgur.com/2LaD7jE.png"
+		"name": "Downloading and configuring PCSX2 #",
+		"description": "Download the version suited for you from our Downloads Section (for beginners, the full installer of the latest stable release is recommended)\nGet the BIOS file from your PlayStation 2 console. This is not included with PCSX2 since it breaks copyright law, so you have to obtain it from your console. .\nConfigure the emulator using the provided instructions in the stable release download. Alternatively these can be found here in the GitHub repository\nTranslated versions of this guide are available, but your milage may vary as many are not for the latest stable version.\nLaunch your game using the ISO file that you have dumped yourself.",
+		"img": "https://i.ibb.co/RN9pXTJ/PCSX2-1-6-0-Windows-10.png"
 	},
 	{
-		"name": "يلا نغني",
-		"description": "تستضيف الفنانة لطيفة نخبةً من نجوم الفن والطرب للوقوف على إبداعات العمالقة، محاولة معرفة أسرار نجاحها، كيفية التحضير لها، وما رافقها من قصص وأسرار.",
-		"img": "https://i.imgur.com/Y3pCsUU.png"
+		"name": "How to dump your PS2 BIOS #",
+		"description": "In order for PCSX2 to function properly, both a legitimate BIOS and copies of games must be obtained from your own PlayStation 2 console and original PlayStation 2 discs respectively. The following explains the recommended ways to accomplish both of these tasks.\n\nDumping your PS2 BIOS is conceptually a two-step process:\n\nModify the operation of your PS2 so that it can run any program.\nThen you can run a “BIOS dumper” utility program on your PS2 that reads its BIOS and writes it to a USB drive.\nThere is a generally useful program, uLaunchELF, that lets you browse memory cards, DVDs, and USB drives connected to a PS2 and run programs from them. So for most of the approaches below, you use uLaunchELF to then run the BIOS dumper.",
+		"img": "https://i.ibb.co/RN9pXTJ/PCSX2-1-6-0-Windows-10.png"
 	
 	},
 	{
-		"name": "يلا نغني",
-		"description": "تستضيف الفنانة لطيفة نخبةً من نجوم الفن والطرب للوقوف على إبداعات العمالقة، محاولة معرفة أسرار نجاحها، كيفية التحضير لها، وما رافقها من قصص وأسرار.",
-		"img": "https://i.imgur.com/Y3pCsUU.png"
+		"name": "Popular approaches to modify PS2 operation #",
+		"description": "FreeMcBoot Memory Card\nWorks for all but the newest (9xxxx serial number with a date code larger than 8B) slim PS2s. Can be found online for ~10 USD.\nFreeDVDBoot\nWorks for many slim models, and some phat models. Slight effort, but free.\nYou will require a blank DVD for this method to work!\nDisc swap exploits\nTechnical in nature, involves hardware tampering. Guides can be found quickly by Googling.\nMod chips\nExtremely technical, requires soldering skills. DO NOT ATTEMPT unless you are an electronics pro.",
+
+		"img": "https://i.ibb.co/RN9pXTJ/PCSX2-1-6-0-Windows-10.png"
 		},
 	{
-		"name": "يلا نغني",
-		"description": "تستضيف الفنانة لطيفة نخبةً من نجوم الفن والطرب للوقوف على إبداعات العمالقة، محاولة معرفة أسرار نجاحها، كيفية التحضير لها، وما رافقها من قصص وأسرار.",
-		"img": "https://i.imgur.com/Y3pCsUU.png"
+		"name": "Dumping PS2 Discs via ImgBurn",
+		"description": "PlayStation 2 game discs are unencrypted DVDs and CDs. This means they can be dumped quickly using a standard optical drive that supports DVD and CD optical media and the ImgBurn software. Dumping discs does not harm optical media directly.",
+
+		"img": "https://i.ibb.co/RN9pXTJ/PCSX2-1-6-0-Windows-10.png"
 	}
 
 ]
